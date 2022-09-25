@@ -67,7 +67,12 @@ footer{
   float: left;
 }
 @media screen and (min-width: 800px) {
-  #main-aside-wrapper {
-    flex-direction: row;
+header{
+  height: 210px;
+}
+  nav{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
