@@ -67,10 +67,10 @@ footer{
   float: left;
 }
 @media screen and (min-width: 800px) {
-header{
-  height: 210px;
-}
-  nav{
+  header{
+    height: 210px;
+  }
+  .menu{
    display: flex;
     flex-direction: column;
     justify-content: center;
