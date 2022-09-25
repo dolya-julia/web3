@@ -5,9 +5,14 @@ body{
   margin: 0;
   background-color: #F7F7FF;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   height: 100%;
-
+}
+.tip{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .content{
   padding-left: 8px;
@@ -15,7 +20,7 @@ body{
 }
 .banner{ 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #CCCCFF;
