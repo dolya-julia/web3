@@ -4,23 +4,21 @@
     <title>First work</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 </head>
-<body>
-  
+<body> 
   <header class="banner">
-    
-    <img id="logo"src="log.jpg" alt="Логотип">
-    <h1 id="title">First work</h1>
-    <div id="main-aside-wrapper">  
-      <nav >
-        <a href="#list">Список</a>
-        <a href="#sheet">Таблица</a>
-        <a href="#forma">Форма</a>
-      </nav>
+    <div class="leader">
+      <img id="logo"src="log.jpg" alt="Логотип">
+      <h1 id="title">First work</h1>
     </div>
+    <nav> 
+      <a href="#list">Список</a>
+      <a href="#sheet">Таблица</a>
+      <a href="#forma">Форма</a>
+    </nav>
   </header>
- 
   <div class="content">
   <h2><a id="list"></a> Список:</h2>
   <ol>
@@ -101,6 +99,8 @@
       <a href="/about">Cокращенная ссылку на внутреннюю</a>                    
     </li>
   </ol>
+  <div class="blocks">
+  <div class="block-item1">
   <table class="tab"><a id="sheet"></a>
     <caption>Таблица</caption>
     <tr>
@@ -141,7 +141,7 @@
       <td colspan="2">Ячейка 62 объединенная с 63</td>
       <td>Ячейка 64</td>
     </tr>
-  </table>
+  </table></div>
   <!--Форма должна содержать следующие поля:
     1) имя (текстовое поле);
     2) e-mail (поле email);
@@ -152,6 +152,7 @@
     7) биография (многострочное текстовое поле);
     8) с контрактом ознакомлен (а) (чекбокс);
     9) кнопка «Отправить».-->
+    <div class="block-item2">
   <h1><a id="forma"></a>Форма:</h1>
   <form action="/"
     method="POST">
@@ -221,7 +222,7 @@
         С контрактом ознакомлен(а)</label><br />
     <p> <input type="submit" value="Отправить" /> </p>
   </form>
-</div>
+</div></div></div>
   <footer>
     <p class="footer-text-left">
     (c) Доля Юлия 2022
