@@ -100,48 +100,49 @@
     </li>
   </ol>
   <div class="blocks">
-  <div class="block-item1">
-  <table class="tab"><a id="sheet"></a>
-    <caption>Таблица</caption>
-    <tr>
-      <th>Колонка 1</th>
-      <th>Колонка 2</th>
-      <th>Колонка 3</th>
-      <th>Колонка 4</th>
-    </tr>
-    <tr>
-      <td colspan="2">Ячейка 11 объединенная с 12</td>
-      <td>Ячейка 13</td>
-      <td>Ячейка 14</td>
-    </tr>
-    <tr class="even">
-      <td>Ячейка 21</td>
-      <td>Ячейка 22</td>
-      <td>Ячейка 23</td>
-      <td>Ячейка 24</td>
-    </tr>
-    <tr>
-      <td>Ячейка 31</td>
-      <td>Ячейка 32</td>
-      <td>Ячейка 33</td>
-      <td>Ячейка 34</td>
-    </tr>
-    <tr class="even">
-      <td>Ячейка 41</td>
-      <td colspan="3">Ячейка 42 объединенная с 43 и 44</td>
-    </tr>
-    <tr>
-      <td>Ячейка 51</td>
-      <td>Ячейка 52</td>
-      <td>Ячейка 53</td>
-      <td>Ячейка 54</td>
-    </tr>
-    <tr class="even">
-      <td>Ячейка 61</td>
-      <td colspan="2">Ячейка 62 объединенная с 63</td>
-      <td>Ячейка 64</td>
-    </tr>
-  </table></div>
+    <div class="block-item1">
+      <table class="tab"><a id="sheet"></a>
+        <caption>Таблица</caption>
+        <tr>
+          <th>Колонка 1</th>
+          <th>Колонка 2</th>
+          <th>Колонка 3</th>
+          <th>Колонка 4</th>
+        </tr>
+        <tr>
+          <td colspan="2">Ячейка 11 объединенная с 12</td>
+          <td>Ячейка 13</td>
+          <td>Ячейка 14</td>
+        </tr>
+        <tr class="even">
+          <td>Ячейка 21</td>
+          <td>Ячейка 22</td>
+          <td>Ячейка 23</td>
+          <td>Ячейка 24</td>
+        </tr>
+        <tr>
+          <td>Ячейка 31</td>
+          <td>Ячейка 32</td>
+          <td>Ячейка 33</td>
+          <td>Ячейка 34</td>
+        </tr>
+        <tr class="even">
+          <td>Ячейка 41</td>
+          <td colspan="3">Ячейка 42 объединенная с 43 и 44</td>
+        </tr>
+        <tr>
+          <td>Ячейка 51</td>
+          <td>Ячейка 52</td>
+          <td>Ячейка 53</td>
+          <td>Ячейка 54</td>
+        </tr>
+        <tr class="even">
+          <td>Ячейка 61</td>
+          <td colspan="2">Ячейка 62 объединенная с 63</td>
+          <td>Ячейка 64</td>
+        </tr>
+      </table>
+    </div>
   <!--Форма должна содержать следующие поля:
     1) имя (текстовое поле);
     2) e-mail (поле email);
@@ -153,80 +154,82 @@
     8) с контрактом ознакомлен (а) (чекбокс);
     9) кнопка «Отправить».-->
     <div class="block-item2">
-  <h1><a id="forma"></a>Форма:</h1>
-  <form action="/"
-    method="POST">
-    <label>
-      Имя:<br />
-      <input name="field-name-1"
-      placeholder="Начальное значение" />
-    </label><br />
-    Почта:<label>
-      <br />
-      <input name="field-email"
-        type="email"
-        placeholder="Введите вашу почту" />
-    </label><br />
-    Дата рождения:<label>
-      <br />
-      <input name="field-date"
-        value="2003-03-03"
-        type="date" />
-    </label><br />
-    <p>
-      Пол:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        Женский</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        Мужской</label><br />
-    </p>
-    <p>
-        Kоличество конечностей:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-2" value="Значение1" />
-        2</label>
-        <label><input type="radio"
-        name="radio-group-2" value="Значение3" />
-        4</label>
-        <label><input type="radio"
-        name="radio-group-2" value="Значение4" />
-        6</label>
-        <label><input type="radio"
-        name="radio-group-2" value="Значение5" />
-        8</label><br />
-    </p>
-    <p>
-    <label>
-        Cверхспособности:
-        <br />
-        <select name="field-name-4"
-          multiple="multiple">
-          <option value="Значение1">Бессмертие</option>
-          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
-          <option value="Значение3" selected="selected">Левитация</option>
-        </select>
-      </label><br />
-    </p>
-    <p>
-      <label>
-        Биография:<br />
-        <textarea name="field-name-2"></textarea>
-      </label><br />
-    </p>
-    <a id="bottom"></a>
-      <br />
-      <label><input type="checkbox"
-        name="check-1" />
-        С контрактом ознакомлен(а)</label><br />
-    <p> <input type="submit" value="Отправить" /> </p>
-  </form>
-</div></div></div>
-  <footer>
+      <h1><a id="forma"></a>Форма:</h1>
+      <form action="/"
+        method="POST">
+        <label>
+          Имя:<br />
+          <input name="field-name-1"
+          placeholder="Начальное значение" />
+        </label><br />
+        Почта:<label>
+          <br />
+          <input name="field-email"
+            type="email"
+            placeholder="Введите вашу почту" />
+        </label><br />
+        Дата рождения:<label>
+          <br />
+          <input name="field-date"
+            value="2003-03-03"
+            type="date" />
+        </label><br />
+        <p>
+          Пол:<br />
+          <label><input type="radio" checked="checked"
+            name="radio-group-1" value="Значение1" />
+            Женский</label>
+          <label><input type="radio"
+            name="radio-group-1" value="Значение2" />
+            Мужской</label><br />
+        </p>
+        <p>
+            Kоличество конечностей:<br />
+          <label><input type="radio" checked="checked"
+            name="radio-group-2" value="Значение1" />
+            2</label>
+            <label><input type="radio"
+            name="radio-group-2" value="Значение3" />
+            4</label>
+            <label><input type="radio"
+            name="radio-group-2" value="Значение4" />
+            6</label>
+            <label><input type="radio"
+            name="radio-group-2" value="Значение5" />
+            8</label><br />
+        </p>
+        <p>
+        <label>
+            Cверхспособности:
+            <br />
+            <select name="field-name-4"
+              multiple="multiple">
+              <option value="Значение1">Бессмертие</option>
+              <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+              <option value="Значение3" selected="selected">Левитация</option>
+            </select>
+          </label><br />
+        </p>
+        <p>
+          <label>
+            Биография:<br />
+            <textarea name="field-name-2"></textarea>
+          </label><br />
+        </p>
+        <a id="bottom"></a>
+          <br />
+          <label><input type="checkbox"
+            name="check-1" />
+            С контрактом ознакомлен(а)</label><br />
+        <p> <input type="submit" value="Отправить" /> </p>
+      </form>
+    </div>
+  </div>
+</div>
+<footer>
     <p class="footer-text-left">
-    (c) Доля Юлия 2022
-  </p>
-  </footer>
+      (c) Доля Юлия 2022
+    </p>
+</footer>
 </body>
 </html>
