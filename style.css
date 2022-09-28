@@ -8,9 +8,9 @@ body{
   display: flex;
   flex-direction: column; 
   height: 100%;
-
 }
 .content{
+  align-self: center;
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -38,13 +38,33 @@ header a {
   font-weight: bold; 
   align-self: center;
 }
-nav{
+.navbar{
   display: flex;
-flex-direction: column; 
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: center; 
+  background-color: #e6e6fa;
+  padding: 8px;
+  font-family: sans-serif;
+  color: black;
 }
-
+.navbar_items {
+  display: flex;
+  flex-direction: column; 
+padding-left: 0;
+margin-left: 0;
+}
+.navbar_items a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #5757a0;
+}
+.navbar_link{
+display: inline;
+}
 #logo { 
   width:100px; 
   height:100px; 
@@ -77,7 +97,6 @@ footer{
   display: flex;
   flex-flow: wrap;
 }
-
 .block-item2{
   order: -1;
 }
@@ -93,12 +112,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  nav{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+    justify-content: center;
   }
   .blocks{
     display: flex;
@@ -111,6 +125,15 @@ footer{
   table {
     margin-bottom: 0;
   }
-
+  .navbar_items {
+   display: flex;
+   flex-direction: row; 
+  }
+.content{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 }
 
