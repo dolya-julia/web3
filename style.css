@@ -129,11 +129,16 @@ footer{
    display: flex;
    flex-direction: row; 
   }
-.content{
-display: flex;
+  .content{
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+ol{
+     text-align:center;
+    margin:0 auto;
+list-style-position: inside;
+width:768px;
 }
 }
-
