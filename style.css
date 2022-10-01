@@ -107,6 +107,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    
   }
   .leader{
     display: flex;
@@ -114,6 +115,15 @@ footer{
     align-items: center;
     justify-content: center;
   }
+#main-aside-wrapper{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  .leader{
+   position: relative;
+}
   .blocks{
     display: flex;
     flex-direction: column;
@@ -128,6 +138,7 @@ footer{
   .navbar_items {
    display: flex;
    flex-direction: row; 
+   
   }
   .content{
     display: flex;
@@ -135,10 +146,10 @@ footer{
     align-items: center;
     justify-content: center;
   }
-ol{
-     text-align:center;
+  ol{
     margin:0 auto;
-list-style-position: inside;
-width:768px;
-}
+    list-style-position: inside;
+    width:768px;
+    position: relative;
+   }
 }
