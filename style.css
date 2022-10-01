@@ -115,15 +115,12 @@ footer{
     align-items: center;
     justify-content: center;
   }
-#main-aside-wrapper{
-display: flex;
+  #main-aside-wrapper{
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-  .leader{
-   position: relative;
-}
+  }
   .blocks{
     display: flex;
     flex-direction: column;
@@ -139,6 +136,7 @@ display: flex;
    display: flex;
    flex-direction: row; 
    
+   
   }
   .content{
     display: flex;
@@ -146,10 +144,29 @@ display: flex;
     align-items: center;
     justify-content: center;
   }
+
   ol{
     margin:0 auto;
     list-style-position: inside;
     width:768px;
     position: relative;
    }
+  .ins{
+    width:768px;
+  }
+  #logo{
+    position: relative;
+  }
+  .navbar{
+    position: relative;
+  }
+  .inn{
+    width:768px;
+  }
+  .inh{
+   width:768px;
+  }
+  .content h2{
+  position: relative;
+}
 }
