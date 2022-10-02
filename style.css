@@ -50,8 +50,8 @@ header a {
 .navbar_items {
   display: flex;
   flex-direction: column; 
-padding-left: 0;
-margin-left: 0;
+  padding-left: 0;
+  margin-left: 0;
 }
 .navbar_items a {
   text-decoration: none;
@@ -64,6 +64,10 @@ margin-left: 0;
 }
 .navbar_link{
 display: inline;
+}
+.inn{
+display: flex;
+  flex-direction: column; 
 }
 #logo { 
   width:100px; 
@@ -115,12 +119,6 @@ footer{
     align-items: center;
     justify-content: center;
   }
-  #main-aside-wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
   .blocks{
     display: flex;
     flex-direction: column;
@@ -135,8 +133,6 @@ footer{
   .navbar_items {
    display: flex;
    flex-direction: row; 
-   
-   
   }
   .content{
     display: flex;
@@ -144,7 +140,6 @@ footer{
     align-items: center;
     justify-content: center;
   }
-
   ol{
     margin:0 auto;
     list-style-position: inside;
@@ -162,6 +157,8 @@ footer{
   }
   .inn{
     width:768px;
+    display: flex;
+    flex-direction: row; 
   }
   .inh{
    width:768px;
